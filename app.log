@@ -1,0 +1,54 @@
+2025-02-10 01:32:49,391 - INFO - Starting Advanced Downloader application.
+2025-02-10 01:32:49,423 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "D:\ProgramArea\VideoDownloader\main.py", line 22, in main
+    app = DownloaderApp(root)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\main_window.py", line 29, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 8, in __init__
+    self.create_menu_bar()
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 24, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'. Did you mean: 'stop_download'?
+2025-02-10 01:35:30,574 - INFO - Starting Advanced Downloader application.
+2025-02-10 01:35:30,605 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "D:\ProgramArea\VideoDownloader\main.py", line 22, in main
+    app = DownloaderApp(root)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\main_window.py", line 29, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 8, in __init__
+    self.create_menu_bar()
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 24, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'. Did you mean: 'stop_download'?
+2025-02-10 01:38:28,771 - INFO - Starting Advanced Downloader application.
+2025-02-10 01:38:28,808 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "D:\ProgramArea\VideoDownloader\main.py", line 22, in main
+    app = DownloaderApp(root)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\main_window.py", line 29, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 8, in __init__
+    self.create_menu_bar()
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 26, in create_menu_bar
+    downloads_menu.add_command(label="Delete All Completed", command=self.app.download_logic.delete_completed_downloads)
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'delete_completed_downloads'
+2025-02-10 01:39:43,252 - INFO - Starting Advanced Downloader application.
+2025-02-10 02:39:54,254 - INFO - Starting Advanced Downloader application.
+2025-02-10 02:41:26,824 - INFO - Starting Advanced Downloader application.
+2025-02-10 03:05:33,016 - INFO - Starting Advanced Downloader application.
+2025-02-10 03:14:22,991 - INFO - Starting Advanced Downloader application.
+2025-02-10 03:14:50,195 - INFO - Starting Advanced Downloader application.
+2025-02-10 20:18:18,595 - INFO - Starting Advanced Downloader application.
+2025-02-10 20:19:29,385 - INFO - Starting Advanced Downloader application.
+2025-02-10 20:27:16,756 - INFO - Starting Advanced Downloader application.

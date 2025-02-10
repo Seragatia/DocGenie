@@ -2,10 +2,11 @@ import tkinter as tk
 from tkinter import ttk
 from gui.table_utils import make_table_scrollable
 
+
 class DownloadTable:
     def __init__(self, root):
         """
-        Initializes the download table with dynamic columns and proper scrolling.
+        Initializes the download table with dynamic columns, custom styling, and proper scrolling.
         Args:
             root (tk.Tk or tk.Frame): The parent Tkinter container.
         """
@@ -13,14 +14,27 @@ class DownloadTable:
             "File Name", "Size", "Progress", "Status", "Time Left",
             "Transfer Rate", "Date Added", "File Type", "Resolution",
             "Download Path", "Source URL"
-        ]  # Supports an extended number of columns
+        ]
 
-        self.table_frame = tk.Frame(root)
-        self.table_frame.pack(pady=10, fill=tk.BOTH, expand=True)
+        # Styling the Treeview
+        style = ttk.Style()
+        style.configure(
+            "Treeview",
+            font=("Arial", 10),  # Font for rows
+            rowheight=25,  # Height of rows
+            background="#f8f9fa",  # Default background
+            fieldbackground="#f8f9fa",  # Field background
+            foreground="#212529",  # Text color
+        )
+        style.configure("Treeview.Heading", font=("Arial", 12, "bold"), foreground="#495057")  # Header styling
+        style.map("Treeview", background=[("selected", "#d1ecf1")])  # Highlight selected row
 
-        # Scrollable Canvas (For Large Tables)
-        self.canvas = tk.Canvas(self.table_frame)
-        self.inner_frame = tk.Frame(self.canvas)  # Frame inside Canvas for proper scrolling
+        self.table_frame = tk.Frame(root, bg="#ffffff", relief=tk.GROOVE, bd=2)
+        self.table_frame.pack(pady=10, padx=10, fill=tk.BOTH, expand=True)
+
+        # Canvas for scrolling
+        self.canvas = tk.Canvas(self.table_frame, bg="#ffffff")
+        self.tree_frame = tk.Frame(self.canvas, bg="#ffffff")  # Inner frame for the Treeview
 
         # Scrollbars
         self.scrollbar_y = ttk.Scrollbar(self.table_frame, orient=tk.VERTICAL, command=self.canvas.yview)
@@ -28,43 +42,51 @@ class DownloadTable:
 
         self.canvas.configure(yscrollcommand=self.scrollbar_y.set, xscrollcommand=self.scrollbar_x.set)
 
-        # Packing Scrollbars
-        self.scrollbar_y.pack(side=tk.RIGHT, fill=tk.Y)
-        self.scrollbar_x.pack(side=tk.BOTTOM, fill=tk.X)
+        # Packing canvas and scrollbars
+        self.scrollbar_y.pack(side=tk.RIGHT, fill=tk.Y, padx=5)
+        self.scrollbar_x.pack(side=tk.BOTTOM, fill=tk.X, pady=5)
+        self.canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        # Attach inner frame to the canvas
+        self.canvas.create_window((0, 0), window=self.tree_frame, anchor="nw")
 
         # Treeview (Table)
         self.tree = ttk.Treeview(
-            self.inner_frame,
+            self.tree_frame,
             columns=self.columns,
             show="headings",
-            height=10,
+            selectmode="browse",
         )
 
-        # Define Columns
+        # Configure Columns
         for col in self.columns:
-            self.tree.heading(col, text=col)
-            self.tree.column(col, width=180, minwidth=150, stretch=True)  # Adjustable for long tables
+            self.tree.heading(col, text=col, anchor="center")  # Center-align header text
+            self.tree.column(col, width=180, minwidth=150, anchor="center", stretch=True)  # Center-align columns
 
-        # Packing Treeview
-        self.tree.pack(fill=tk.BOTH, expand=True)
+        # Zebra striping (Alternating Row Colors)
+        self.tree.tag_configure("evenrow", background="#f1f3f5")
+        self.tree.tag_configure("oddrow", background="#ffffff")
 
-        # Attach frame to canvas
-        self.canvas.create_window((0, 0), window=self.inner_frame, anchor="nw")
-        self.canvas.pack(fill=tk.BOTH, expand=True)
+        # Packing Treeview inside the inner frame
+        self.tree.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
-        # Enable scrolling dynamically
-        make_table_scrollable(self.canvas, self.inner_frame)
+        # Enable dynamic scrolling
+        self.tree_frame.update_idletasks()
+        make_table_scrollable(self.canvas, self.tree_frame)
 
     def add_row(self, **kwargs):
         """
-        Adds a new row to the table dynamically.
+        Adds a new row to the table dynamically with alternating colors.
         Args:
             kwargs (dict): Dictionary of column values.
         Returns:
             str: The unique identifier of the added row.
         """
         row_values = [kwargs.get(col, "N/A") for col in self.columns]
-        return self.tree.insert("", "end", values=row_values)
+        row_count = len(self.tree.get_children())
+
+        tag = "evenrow" if row_count % 2 == 0 else "oddrow"  # Apply zebra-striping
+        return self.tree.insert("", "end", values=row_values, tags=(tag,))
 
     def update_row(self, item, **kwargs):
         """
@@ -96,3 +118,4 @@ class DownloadTable:
         """
         for item in self.tree.get_children():
             self.tree.delete(item)
+
