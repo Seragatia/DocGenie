@@ -1,0 +1,1 @@
+fn(actix_web::web::Data<Arc<std::sync::RwLock<HashMap<std::string::String, DownloadTask>>>>, actix_web::web::Path<std::string::String>) -> impl futures::Future<Output = Result<impl Responder, actix_web::Error>> {cancel_download}

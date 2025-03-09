@@ -1,0 +1,1049 @@
+2025-02-10 01:32:49,391 - INFO - Starting Advanced Downloader application.
+2025-02-10 01:32:49,423 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "D:\ProgramArea\VideoDownloader\main.py", line 22, in main
+    app = DownloaderApp(root)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\main_window.py", line 29, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 8, in __init__
+    self.create_menu_bar()
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 24, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'. Did you mean: 'stop_download'?
+2025-02-10 01:35:30,574 - INFO - Starting Advanced Downloader application.
+2025-02-10 01:35:30,605 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "D:\ProgramArea\VideoDownloader\main.py", line 22, in main
+    app = DownloaderApp(root)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\main_window.py", line 29, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 8, in __init__
+    self.create_menu_bar()
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 24, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'. Did you mean: 'stop_download'?
+2025-02-10 01:38:28,771 - INFO - Starting Advanced Downloader application.
+2025-02-10 01:38:28,808 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "D:\ProgramArea\VideoDownloader\main.py", line 22, in main
+    app = DownloaderApp(root)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\main_window.py", line 29, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 8, in __init__
+    self.create_menu_bar()
+  File "D:\ProgramArea\VideoDownloader\gui\menu_bar.py", line 26, in create_menu_bar
+    downloads_menu.add_command(label="Delete All Completed", command=self.app.download_logic.delete_completed_downloads)
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'delete_completed_downloads'
+2025-02-10 01:39:43,252 - INFO - Starting Advanced Downloader application.
+2025-02-10 02:39:54,254 - INFO - Starting Advanced Downloader application.
+2025-02-10 02:41:26,824 - INFO - Starting Advanced Downloader application.
+2025-02-10 03:05:33,016 - INFO - Starting Advanced Downloader application.
+2025-02-10 03:14:22,991 - INFO - Starting Advanced Downloader application.
+2025-02-10 03:14:50,195 - INFO - Starting Advanced Downloader application.
+2025-02-10 20:18:18,595 - INFO - Starting Advanced Downloader application.
+2025-02-10 20:19:29,385 - INFO - Starting Advanced Downloader application.
+2025-02-10 20:27:16,756 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:08:17,210 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:09:17,822 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:12:30,718 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:15:43,037 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:19:07,884 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:20:49,041 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:20:49,156 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.url_input = URLInput(root, self)  # URL Input Section
+                     ~~~~~~~~^^^^^^^^^^^^
+TypeError: URLInput.__init__() takes 2 positional arguments but 3 were given
+2025-02-18 05:22:45,899 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:22:46,018 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.url_input = URLInput(root, self)  # URL Input Section
+                     ^^^^^^^^
+NameError: name 'URLInput' is not defined
+2025-02-18 05:23:15,741 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:23:15,853 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.url_input = URLInput(root, self)  # URL Input Section
+                     ^^^^^^^^
+NameError: name 'URLInput' is not defined
+2025-02-18 05:24:36,714 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:32:04,697 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:37:41,044 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:47:01,649 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:52:11,872 - INFO - Starting Advanced Downloader application.
+2025-02-18 05:58:51,121 - INFO - Starting Advanced Downloader application.
+2025-02-18 06:06:25,935 - INFO - Starting Advanced Downloader application.
+2025-02-18 06:09:46,533 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:43:36,070 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:43:36,202 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 34, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 24, in __init__
+    style.configure("Treeview.Heading", background="#3E3E3E", foreground="white")
+    ^^^^^
+NameError: name 'style' is not defined. Did you mean: 'type'?
+2025-02-18 15:48:08,571 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:48:08,680 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 24, in __init__
+    style.configure("Treeview.Heading", background="#3E3E3E", foreground="white")
+    ^^^^^
+NameError: name 'style' is not defined. Did you mean: 'type'?
+2025-02-18 15:49:32,934 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:49:33,042 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 24, in __init__
+    style.configure("Treeview.Heading", background="#3E3E3E", foreground="white")
+    ^^^^^
+NameError: name 'style' is not defined. Did you mean: 'type'?
+2025-02-18 15:51:10,395 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:51:10,505 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 24, in __init__
+    style.configure("Treeview.Heading", background="#3E3E3E", foreground="white")
+    ^^^^^
+NameError: name 'style' is not defined. Did you mean: 'type'?
+2025-02-18 15:54:12,650 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:55:49,080 - INFO - Starting Advanced Downloader application.
+2025-02-18 15:57:01,785 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:02:38,634 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:02:38,755 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 26, in __init__
+    self.apply_styles()  # Apply table styles
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 81, in apply_styles
+    self.tree.tag_configure("evenrow", background="#2D2D2D")  # Slightly darker
+    ^^^^^^^^^
+AttributeError: 'DownloadTable' object has no attribute 'tree'
+2025-02-18 16:04:51,567 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:11:14,703 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:12:12,519 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:16:56,424 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:25:44,443 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:32:55,151 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:37:35,635 - INFO - Starting Advanced Downloader application.
+2025-02-18 16:37:35,758 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 26, in __init__
+    self.apply_styles()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 103, in apply_styles
+    self.tree.tag_configure("evenrow", background="#2A2A2A")
+    ^^^^^^^^^
+AttributeError: 'DownloadTable' object has no attribute 'tree'
+2025-02-18 16:39:20,260 - INFO - Starting Advanced Downloader application.
+2025-02-18 23:59:11,050 - INFO - Starting Advanced Downloader application.
+2025-02-19 00:08:09,464 - INFO - Starting Advanced Downloader application.
+2025-02-19 00:08:53,514 - INFO - Starting Advanced Downloader application.
+2025-02-19 00:12:55,447 - INFO - Starting Advanced Downloader application.
+2025-02-19 00:12:55,573 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    make_table_scrollable(self.tree, self.scrollbar_x, self.scrollbar_y)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: make_table_scrollable() takes 2 positional arguments but 3 were given
+2025-02-19 00:16:52,409 - INFO - Starting Advanced Downloader application.
+2025-02-19 00:16:52,535 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 35, in __init__
+    self.download_table = DownloadTable(root)  # Download Table
+                          ~~~~~~~~~~~~~^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    make_table_scrollable(self.tree, self.scrollbar_x, self.scrollbar_y)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/table_utils.py", line 38, in make_table_scrollable
+    canvas.create_window((0, 0), window=frame, anchor="nw")
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Treeview' object has no attribute 'create_window'
+2025-02-19 00:23:51,837 - INFO - Starting Advanced Downloader application.
+2025-02-19 08:44:21,492 - INFO - Starting Advanced Downloader application.
+2025-02-19 08:49:32,307 - INFO - Starting Advanced Downloader application.
+2025-02-19 08:55:58,679 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:06:58,227 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:09:23,708 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:09:39,125 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:12:56,000 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:14:54,741 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:20:08,783 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:20:42,282 - INFO - Starting Advanced Downloader application.
+2025-02-19 09:22:22,503 - INFO - Starting Advanced Downloader application.
+2025-02-19 13:48:47,646 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:02:27,680 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:15:05,156 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:15:51,178 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:22:54,107 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:25:07,004 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:25:07,114 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 32, in __init__
+    create_toolbar(root, self)          # Toolbar
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/toolbar.py", line 6, in create_toolbar
+    toolbar_frame = tk.Frame(root, bg="#1E1E1E")
+                    ^^
+NameError: name 'tk' is not defined. Did you mean: 'ttk'?
+2025-02-19 14:26:21,178 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:36:50,320 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:47:03,400 - INFO - Starting Advanced Downloader application.
+2025-02-19 14:51:07,548 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:03:41,814 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:04:06,200 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:11:45,844 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:13:39,520 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:16:35,375 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:26:04,580 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:31:52,276 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:31:52,408 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 32, in __init__
+    create_toolbar(root, self)          # Toolbar
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/toolbar.py", line 108, in create_toolbar
+    root.bind("<ThemeToggle>", lambda e: update_toolbar_theme())
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1545, in bind
+    return self._bind(('bind', self._w), sequence, func, add)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1499, in _bind
+    self.tk.call(what + (sequence, cmd))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bad event type or keysym "ThemeToggle"
+2025-02-19 15:35:56,666 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:54:42,059 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:58:19,302 - INFO - Starting Advanced Downloader application.
+2025-02-19 15:58:41,994 - INFO - Starting Advanced Downloader application.
+2025-02-19 16:21:54,999 - INFO - Starting Advanced Downloader application.
+2025-02-19 16:24:56,266 - INFO - Starting Advanced Downloader application.
+2025-02-19 16:27:13,726 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:38:53,354 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:38:53,482 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 39, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 56, in apply_theme
+    self.download_table.apply_theme(self.theme)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: DownloadTable.apply_theme() takes 1 positional argument but 2 were given
+2025-02-20 00:41:30,351 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:41:30,477 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 39, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 57, in apply_theme
+    self.menu_bar.apply_theme(self.theme)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MenuBar' object has no attribute 'apply_theme'. Did you mean: 'apply_dark_theme'?
+2025-02-20 00:41:50,018 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:41:50,137 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 39, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 57, in apply_theme
+    self.menu_bar.apply_theme(self.theme)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MenuBar' object has no attribute 'apply_theme'. Did you mean: 'apply_dark_theme'?
+2025-02-20 00:43:04,542 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:43:04,648 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 39, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 57, in apply_theme
+    self.menu_bar.apply_theme(self.theme)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 46, in apply_theme
+    self.root.configure(bg=theme["menu_bg"])
+                           ~~~~~^^^^^^^^^^^
+KeyError: 'menu_bg'
+2025-02-20 00:44:37,998 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:44:38,117 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 36, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 51, in apply_theme
+    self.menu_bar.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 46, in apply_theme
+    self.root.configure(bg=theme["menu_bg"])
+                           ~~~~~^^^^^^^^^^^
+KeyError: 'menu_bg'
+2025-02-20 00:47:57,078 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:47:57,200 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 30, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 11, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 15, in create_menu_bar
+    theme = self.app.theme  # ✅ Get the current theme dynamically
+            ^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'theme'
+2025-02-20 00:50:29,584 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:50:29,702 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 30, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 11, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 15, in create_menu_bar
+    theme = self.app.theme  # ✅ Get the current theme dynamically
+            ^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'theme'
+2025-02-20 00:51:11,934 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:51:12,058 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 30, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 10, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 14, in create_menu_bar
+    theme = self.app.theme  # ✅ Use the current theme
+            ^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'theme'
+2025-02-20 00:52:10,906 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:52:11,029 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 30, in __init__
+    self.menu_bar = MenuBar(root, self)  # Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 10, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 14, in create_menu_bar
+    theme = self.app.theme  # ✅ Use the current theme
+            ^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'theme'
+2025-02-20 00:56:23,409 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:56:23,519 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 10, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 16, in create_menu_bar
+    menu_bar = tk.Menu(self.root, bg=theme["menu_bg"], fg=theme["menu_fg"])
+                                                          ~~~~~^^^^^^^^^^^
+KeyError: 'menu_fg'
+2025-02-20 00:57:10,799 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:57:10,908 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 10, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 16, in create_menu_bar
+    menu_bar = tk.Menu(self.root, bg=theme["menu_bg"], fg=theme["menu_fg"])
+                                                          ~~~~~^^^^^^^^^^^
+KeyError: 'menu_fg'
+2025-02-20 00:58:27,107 - INFO - Starting Advanced Downloader application.
+2025-02-20 00:58:27,214 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 10, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 16, in create_menu_bar
+    menu_bar = tk.Menu(self.root, bg=theme["menu_bg"], fg=theme["menu_fg"])
+                                                          ~~~~~^^^^^^^^^^^
+KeyError: 'menu_fg'
+2025-02-20 01:01:47,069 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:01:47,176 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ Menu Bar
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 10, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 16, in create_menu_bar
+    menu_bar = tk.Menu(self.root, bg=theme["menu_bg"], fg=theme["menu_fg"])
+                                                          ~~~~~^^^^^^^^^^^
+KeyError: 'menu_fg'
+2025-02-20 01:02:53,956 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:02:54,065 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 34, in __init__
+    self.status_label = StatusLabel(root)  # ✅ Status Label
+                        ~~~~~~~~~~~^^^^^^
+TypeError: StatusLabel.__init__() missing 1 required positional argument: 'theme'
+2025-02-20 01:04:01,425 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:04:01,534 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 34, in __init__
+    self.status_label = StatusLabel(root)  # ✅ Status Label
+                        ~~~~~~~~~~~^^^^^^
+TypeError: StatusLabel.__init__() missing 1 required positional argument: 'theme'
+2025-02-20 01:05:45,955 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:05:46,075 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 37, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 56, in apply_theme
+    self.status_label.apply_theme(self.theme)  # ✅ FIXED: Update StatusLabel
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StatusLabel' object has no attribute 'apply_theme'
+2025-02-20 01:05:55,808 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:05:55,926 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 37, in __init__
+    self.apply_theme()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 56, in apply_theme
+    self.status_label.apply_theme(self.theme)  # ✅ FIXED: Update StatusLabel
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StatusLabel' object has no attribute 'apply_theme'
+2025-02-20 01:06:45,110 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:09:50,389 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:09:50,494 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:11:18,061 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:11:18,167 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:12:45,269 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:12:45,385 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:13:06,968 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:13:07,082 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:15:23,393 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:15:23,509 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:19:44,228 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:19:44,339 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:19:58,614 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:19:58,725 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:22:16,644 - INFO - Starting Advanced Downloader application.
+2025-02-20 01:22:16,761 - ERROR - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:23:42,729 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:23:42,840 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root)
+                          ~~~~~~~~~~~~~^^^^^^
+TypeError: DownloadTable.__init__() missing 1 required positional argument: 'parent_app'
+2025-02-20 01:25:04,878 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:25:04,989 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)  # ✅ Pass `self` as `parent_app`
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:26:45,837 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:26:45,960 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)  # ✅ Pass `self` as `parent_app`
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:29:31,523 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:29:31,648 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)  # ✅ Pass `self` as `parent_app`
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:32:05,195 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:32:05,305 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)  # ✅ Pass `self` as `parent_app`
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:33:26,092 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:33:26,200 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)  # ✅ Pass `self` as `parent_app`
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:36:22,093 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:36:22,211 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)  # ✅ Pass `self` as `parent_app`
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:42:01,630 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:42:01,776 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 54, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 90, in apply_theme
+    self.scrollbar_y.configure(bg=theme.get("border_color", "#333333"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 01:43:10,896 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:43:11,025 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 34, in __init__
+    self.status_label = StatusLabel(root, self)
+                        ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/status_label.py", line 12, in __init__
+    fg=theme["fg"],
+       ~~~~~^^^^^^
+TypeError: 'DownloaderApp' object is not subscriptable
+2025-02-20 01:44:31,705 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 01:44:31,837 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 34, in __init__
+    self.status_label = StatusLabel(root, self)
+                        ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/status_label.py", line 7, in __init__
+    self.label = tk.Label(root, text="Welcome to the Advanced Downloader!", fg=theme["fg"], bg=theme["bg"])
+                                                                               ~~~~~^^^^^^
+TypeError: 'DownloaderApp' object is not subscriptable
+2025-02-20 01:45:41,807 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:05:45,022 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:12:27,038 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:17:33,795 - INFO - main.py:24 - Application closed successfully.
+2025-02-20 02:20:37,808 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:35:46,264 - INFO - main.py:24 - Application closed successfully.
+2025-02-20 02:35:57,745 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:35:57,872 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 55, in __init__
+    self.scrollbar_y.grid(row=0, column=1, sticky="ns")
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 2693, in grid_configure
+    self.tk.call(
+    ~~~~~~~~~~~~^
+          ('grid', 'configure', self._w)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          + self._options(cnf, kw))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: cannot use geometry manager "grid" inside ".!frame2": pack is already managing its content windows
+2025-02-20 02:37:26,892 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:39:52,659 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:41:58,225 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:43:44,310 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:46:19,266 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:48:52,970 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:52:01,373 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:55:36,226 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 02:55:36,347 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 69, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 104, in apply_theme
+    self.inner_frame.configure(bg=theme["bg"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-bg"
+2025-02-20 02:57:05,399 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:00:16,791 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:07:58,719 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:07:58,847 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 33, in __init__
+    self.download_table = DownloadTable(root, self)
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 72, in __init__
+    self.apply_theme(theme)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/download_table.py", line 84, in apply_theme
+    self.inner_frame.configure(background=theme["bg"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1822, in configure
+    return self._configure('configure', cnf, kw)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1812, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-background"
+2025-02-20 03:13:03,902 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:18:14,223 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:23:05,784 - INFO - main.py:24 - Application closed successfully.
+2025-02-20 03:23:10,736 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:38:43,079 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:45:33,063 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:51:01,905 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:51:25,195 - INFO - main.py:24 - Application closed successfully.
+2025-02-20 03:52:12,661 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 03:53:29,734 - INFO - main.py:24 - Application closed successfully.
+2025-02-20 23:09:12,674 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:09:12,812 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 32, in __init__
+    self.toolbar = Toolbar(root, self)
+                   ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/toolbar.py", line 27, in __init__
+    self.add_url_button = self.create_button(f"{self.icons['add_url']} Add URL", self.parent_app.show_add_url_window)
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'show_add_url_window'
+2025-02-20 23:22:43,134 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:22:43,260 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 32, in __init__
+    self.toolbar = Toolbar(root, self)
+                   ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/toolbar.py", line 27, in __init__
+    self.add_url_button = self.create_button(f"{self.icons['add_url']} Add URL", self.parent_app.show_add_url_window)
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'show_add_url_window'
+2025-02-20 23:25:34,863 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:25:34,985 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 32, in __init__
+    self.toolbar = Toolbar(root, self)
+                   ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/toolbar.py", line 27, in __init__
+    self.add_url_button = self.create_button(f"{self.icons['add_url']} Add URL", self.parent_app.show_add_url_window)
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'show_add_url_window'
+2025-02-20 23:30:47,635 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:30:47,758 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 9, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 27, in create_menu_bar
+    theme_menu.add_command(label="Switch Theme", command=self.app.toggle_theme)
+                                                         ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'toggle_theme'
+2025-02-20 23:34:23,332 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:34:23,450 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 9, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 27, in create_menu_bar
+    theme_menu.add_command(label="Switch Theme", command=self.app.toggle_theme)  # ✅ FIXED
+                                                         ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloaderApp' object has no attribute 'toggle_theme'
+2025-02-20 23:37:06,371 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:39:00,229 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:44:00,667 - INFO - main.py:24 - Application closed successfully.
+2025-02-20 23:44:04,659 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-20 23:58:35,469 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:00:40,015 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:15:22,182 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:17:49,630 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:23:06,182 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:24:39,259 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:26:44,853 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:37:00,046 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:40:49,357 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:43:27,757 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:03:30,950 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:03:31,056 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ FIXED: `toggle_theme` exists now
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 9, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 22, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'
+2025-02-21 00:59:59,127 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 00:59:59,255 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ FIXED: `toggle_theme` exists now
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 9, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 22, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'
+2025-02-21 01:11:46,313 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:11:46,428 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ FIXED: `toggle_theme` exists now
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 9, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 22, in create_menu_bar
+    downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'
+2025-02-21 01:14:53,619 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:27:24,054 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:32:15,740 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:47:04,259 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:47:31,313 - INFO - main.py:24 - Application closed successfully.
+2025-02-21 01:48:08,531 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 01:49:13,998 - INFO - main.py:24 - Application closed successfully.
+2025-02-21 01:57:06,478 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 02:04:04,184 - INFO - main.py:24 - Application closed successfully.
+2025-02-21 02:04:09,450 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 02:04:09,577 - ERROR - main.py:26 - An error occurred while running the application.
+Traceback (most recent call last):
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/main.py", line 22, in main
+    app = DownloaderApp(root)
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/main_window.py", line 31, in __init__
+    self.menu_bar = MenuBar(root, self)  # ✅ FIXED: `toggle_theme` exists now
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 9, in __init__
+    self.create_menu_bar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/serageldinattia/Downloads/Advanced-DOW-main/gui/menu_bar.py", line 22, in create_menu_bar
+    self.downloads_menu.add_command(label="Stop All", command=self.app.download_logic.stop_all_downloads)
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DownloadLogic' object has no attribute 'stop_all_downloads'
+2025-02-21 02:12:38,315 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 02:17:45,506 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 02:20:50,770 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 02:37:16,515 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 02:54:06,451 - INFO - main.py:20 - Starting Advanced Downloader application.
+2025-02-21 03:10:07,281 - ERROR - Download Failed for watch: Unknown format code 'f' for object of type 'str'
+2025-02-21 03:12:20,688 - ERROR - Download Failed for watch: wrong # args: should be ".!frame2.!treeview exists itemid"
+2025-02-21 03:15:34,559 - ERROR - Download Failed for watch: Unknown format code 'f' for object of type 'str'
+2025-02-21 03:15:50,643 - ERROR - Download Failed for watch: wrong # args: should be ".!frame2.!treeview exists itemid"
+2025-02-21 03:18:50,238 - ERROR - Download Failed for watch: Unknown format code 'f' for object of type 'str'
+2025-02-21 03:19:09,979 - ERROR - Download Failed for watch: wrong # args: should be ".!frame2.!treeview exists itemid"
+2025-02-21 03:19:16,892 - ERROR - Download Failed for watch: wrong # args: should be ".!frame2.!treeview exists itemid"
+2025-02-21 03:23:13,508 - ERROR - Download Failed for video_5352716316895422042.mp4: Unknown format code 'f' for object of type 'str'
+2025-02-21 03:27:56,230 - ERROR - Download Failed for video_5621790313544346376.mp4: Unknown format code 'f' for object of type 'str'
+2025-02-21 03:30:36,175 - ERROR - Download Failed for video_561647664556208582.mp4: Unknown format code 'f' for object of type 'str'
+2025-02-21 03:36:47,196 - ERROR - Unexpected Error: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - Unknown format code 'f' for object of type 'str'
+2025-02-21 03:53:27,840 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - FFmpegPostProcessor.__init__() got an unexpected keyword argument 'preferredformat'
+2025-02-21 03:54:53,937 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - FFmpegPostProcessor.__init__() got an unexpected keyword argument 'preferredformat'
+2025-02-21 03:57:18,326 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - FFmpegPostProcessor.__init__() got an unexpected keyword argument 'preferredformat'
+2025-02-21 03:59:16,398 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - FFmpegPostProcessor.__init__() got an unexpected keyword argument 'preferredformat'
+2025-02-21 04:04:08,344 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - 'FFmpegMergerPPPP'
+2025-02-21 04:06:32,511 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - 'FFmpegMergerPPPP'
+2025-02-21 04:08:26,700 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - 'FFmpegMergerPPPP'
+2025-02-21 04:10:03,584 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - 'FFmpegMergerPPPP'
+2025-02-21 04:11:07,319 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - 'FFmpegMergerPPPP'
+2025-02-21 04:14:06,501 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/Imla ill Arda Di Tatfim⧸⧸Imla ill Arda Di Tatfim #Nasheed [hrxpnO3r9Fw].f398.mp4'
+2025-02-21 04:17:26,296 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/Imla ill Arda Di Tatfim⧸⧸Imla ill Arda Di Tatfim #Nasheed [hrxpnO3r9Fw].f398.mp4'
+2025-02-21 04:25:19,376 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/Imla ill Arda Di Tatfim⧸⧸Imla ill Arda Di Tatfim #Nasheed [hrxpnO3r9Fw].f398.mp4'
+2025-02-21 04:27:00,841 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hTQBpea-kk0&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=2&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/إننا الأبطال لا نحني الرؤوس - إنشاد فرقة غرباء｜ كلمات الرائع جهاد الترباني [hTQBpea-kk0].f395.mp4'
+2025-02-21 04:31:08,427 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hTQBpea-kk0&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=2&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/إننا الأبطال لا نحني الرؤوس - إنشاد فرقة غرباء｜ كلمات الرائع جهاد الترباني [hTQBpea-kk0].f395.mp4'
+2025-02-21 04:33:34,342 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hrxpnO3r9Fw&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=1&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/Imla ill Arda Di Tatfim⧸⧸Imla ill Arda Di Tatfim #Nasheed [hrxpnO3r9Fw].f398.mp4'
+2025-02-21 04:35:53,047 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hTQBpea-kk0&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=2&pp=gAQBiAQB8AUB - '__files_to_merge'
+2025-02-21 04:37:04,369 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=wTgQ7XbtXMs&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=5&pp=gAQBiAQB8AUB - [Errno 2] No such file or directory: 'Downloads/فِداك العِباد 🖤 _ نصرة الرسول (صلى الله عليه وسلم) _ مع مشاهد من مسلسل قيامة ارطغرل وعثمان _ تصميمى [wTgQ7XbtXMs].f400.mp4'
+2025-02-21 04:50:38,402 - ERROR - YouTube Download Failed: https://www.youtube.com/watch?v=hTQBpea-kk0&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=2&pp=gAQBiAQB8AUB - FFmpegPostProcessor.__init__() got an unexpected keyword argument 'preferredformat'
+2025-02-21 06:45:04,002 - ERROR - Unexpected Error: https://www.youtube.com/watch?v=bGFfGfF3Kzc&list=PLmP_z1776Wk7Mm88s765wMzivTGMNR7KH&index=3&pp=gAQBiAQB8AUB - integer modulo by zero
+2025-02-21 15:54:49,679 - INFO - Starting Advanced Downloader application.
+2025-02-21 15:55:43,636 - ERROR - Download Failed for video_-5930107101320612063.mp4: download_file() got an unexpected keyword argument 'size_callback'
+2025-02-21 16:29:58,334 - INFO - Starting Advanced Downloader application.
+2025-02-21 16:31:23,250 - ERROR - Download Error: 'DownloaderApp' object has no attribute 'toolbar_logic'
+2025-02-21 16:31:23,328 - ERROR - Download Failed for video_-6805819328539041063.mp4: FileDownloader.__init__() got an unexpected keyword argument 'size_callback'
+2025-02-22 00:51:26,641 - INFO - Starting Advanced Downloader application.
+2025-02-22 00:51:54,063 - ERROR - Download Error: 'DownloaderApp' object has no attribute 'toolbar_logic'
+2025-02-22 00:51:54,098 - ERROR - Download Failed for video_-755296713152722653.mp4: FileDownloader.__init__() got an unexpected keyword argument 'size_callback'
+2025-02-22 00:55:35,789 - INFO - Starting Advanced Downloader application.
+2025-02-22 00:55:55,162 - ERROR - Download Error: 'DownloaderApp' object has no attribute 'toolbar_logic'
+2025-02-22 00:55:55,235 - ERROR - Download Failed for video_-3890227113738273297.mp4: FileDownloader.__init__() got an unexpected keyword argument 'size_callback'
+2025-02-22 01:07:17,625 - INFO - Starting Advanced Downloader application.
+2025-02-22 01:07:31,323 - ERROR - Download Error: 'DownloaderApp' object has no attribute 'toolbar_logic'
+2025-02-22 01:07:31,427 - ERROR - Download Failed for video_-1702585002470754287.mp4: FileDownloader.__init__() got an unexpected keyword argument 'size_callback'
+2025-02-22 01:16:08,835 - INFO - Starting Advanced Downloader application.
+2025-02-22 01:16:34,169 - ERROR - Download Error: 'Toolbar' object has no attribute 'update_button_states'
+2025-02-22 01:16:34,267 - ERROR - Download Failed for video_-17963727798347588.mp4: FileDownloader.__init__() got an unexpected keyword argument 'size_callback'
+2025-02-23 09:33:13,672 - INFO - Starting Advanced Downloader application.
+2025-02-24 00:00:45,766 - INFO - Starting Advanced Downloader application.
+2025-02-24 01:18:09,544 - INFO - Application closed successfully.
+2025-02-24 01:18:29,502 - INFO - Starting Advanced Downloader application.
+2025-02-24 01:18:40,924 - INFO - Application closed successfully.

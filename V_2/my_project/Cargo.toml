@@ -1,0 +1,22 @@
+[package]
+name = "my_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "^0.11", features = ["blocking", "json"] }
+# Ensure compatibility with actix-web
+tokio = { version = "^1.14", features = ["full"] }  # Adjusted to match the necessary range
+rand = "0.8"
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = "1.0"
+openssl = "0.10"
+chrono = { version = "^0.4", features = ["serde"] }
+actix-web = "4"  # This requires a newer version of Tokio, please make sure it is compatible
+zip = "0.5"
+log = "0.4"
+futures = "0.3"
+
+[lib]
+name = "my_project"
+path = "src/lib.rs"

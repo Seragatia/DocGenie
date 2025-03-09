@@ -1,0 +1,9 @@
+/Users/serageldinattia/Downloads/Advanced-DOW-main/my_project/target/debug/deps/libasync_graphql_actix_web-fb6cf5c5c5dab9ab.rmeta: /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/lib.rs /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/request.rs /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/subscription.rs
+
+/Users/serageldinattia/Downloads/Advanced-DOW-main/my_project/target/debug/deps/libasync_graphql_actix_web-fb6cf5c5c5dab9ab.rlib: /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/lib.rs /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/request.rs /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/subscription.rs
+
+/Users/serageldinattia/Downloads/Advanced-DOW-main/my_project/target/debug/deps/async_graphql_actix_web-fb6cf5c5c5dab9ab.d: /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/lib.rs /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/request.rs /Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/subscription.rs
+
+/Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/lib.rs:
+/Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/request.rs:
+/Users/serageldinattia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-graphql-actix-web-4.0.16/src/subscription.rs:
